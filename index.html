@@ -1,0 +1,263 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portfolio of Mohammed Alqahom, a junior full stack developer focused on C# .NET, web development, Flutter, backend systems, SQL Server, PHP, and practical software projects."
+    />
+    <title>محمد القحوم | Software Developer</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <canvas id="heroCanvas" aria-hidden="true"></canvas>
+
+    <header class="topbar">
+      <a class="brand" href="#home" aria-label="Home">
+        <span class="brand-mark">م</span>
+        <span data-field="name">محمد القحوم</span>
+      </a>
+      <nav class="nav" aria-label="Main navigation">
+        <a href="#fit" data-i18n="nav.fit">طريقتي</a>
+        <a href="#work" data-i18n="nav.work">المشاريع</a>
+        <a href="#skills" data-i18n="nav.skills">المهارات</a>
+        <a href="#backend" data-i18n="nav.backend">الباك إند</a>
+        <a href="#certificates" data-i18n="nav.certificates">الشهادات</a>
+        <a href="#about" data-i18n="nav.about">الخبرات</a>
+        <a href="#contact" data-i18n="nav.contact">تواصل</a>
+      </nav>
+      <div class="top-actions">
+        <button class="language-toggle" id="langToggle" type="button" aria-label="Switch language">EN</button>
+        <button class="icon-button" id="themeToggle" type="button" aria-label="Toggle theme">
+          <span class="sun-icon"></span>
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" id="home">
+        <div class="hero-copy reveal">
+          <p class="eyebrow">Junior Full Stack Developer / C# .NET / Web / Flutter</p>
+          <h1 data-field="headline">أنا محمد القحوم، مطور Junior أبني مشاريعي بعقلية تعلم وتنظيم ونتيجة.</h1>
+          <p class="hero-text" data-field="bio">
+            أنا مطور Junior أركز على بناء أنظمة عملية تجمع بين الواجهات، الباك إند، وقواعد البيانات. عملت على مشاريع باستخدام Flutter وDart وPHP وMySQL وC# وSQL Server وتقنيات الويب وC++. أعتمد على OOP والبرمجة المهيكلة، وأهتم بأن يكون الكود منظمًا والنتيجة قابلة للعرض والفحص.
+          </p>
+          <div class="hero-actions">
+            <a class="primary-action" href="#work" data-i18n="hero.projects">استعراض المشاريع</a>
+            <a class="ghost-action" href="#contact" data-i18n="hero.cv">طلب السيرة الذاتية</a>
+          </div>
+          <div class="credential-strip" aria-label="Highlights">
+            <span>Flutter + Dart</span>
+            <span>PHP + MySQL</span>
+            <span>OOP + Problem Solving</span>
+          </div>
+        </div>
+
+        <aside class="profile-panel reveal" aria-label="Profile summary">
+          <div class="portrait" id="portrait" role="img" aria-label="Profile photo">
+            <span>مق</span>
+          </div>
+          <div>
+            <p class="panel-kicker" data-field="availability">أبحث عن فرصة Junior أقدم فيها قيمة عملية من أول مشروع</p>
+            <h2 data-field="role">Junior Full Stack Developer | C# .NET | Web | Flutter</h2>
+          </div>
+          <dl class="quick-stats">
+            <div>
+              <dt data-stat="projects">12</dt>
+              <dd data-i18n="stats.projects">مشروع</dd>
+            </div>
+            <div>
+              <dt data-stat="technologies">12</dt>
+              <dd data-i18n="stats.tech">تقنيات</dd>
+            </div>
+            <div>
+              <dt data-stat="certificates">4</dt>
+              <dd data-i18n="stats.certificates">شهادات</dd>
+            </div>
+          </dl>
+          <div class="role-tags" aria-label="Suitable roles">
+            <span>Junior C# .NET Developer</span>
+            <span>Backend / Web Developer</span>
+            <span>Flutter Developer</span>
+          </div>
+        </aside>
+      </section>
+
+      <section class="section fit-section" id="fit">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Hiring Fit</p>
+          <h2 data-i18n="fit.title">ما الذي أحاول تقديمه في أي فريق؟</h2>
+        </div>
+        <div class="hire-grid reveal">
+          <article class="hire-card">
+            <span>01</span>
+            <h3 data-i18n="fit.card1.title">أبني على أساس برمجي واضح</h3>
+            <p data-i18n="fit.card1.text">لا أتعامل مع البرمجة ككتابة أوامر فقط؛ أحاول فهم الفكرة، تقسيمها، ثم تطبيقها بأسلوب منظم يعتمد على OOP والبرمجة المهيكلة.</p>
+          </article>
+          <article class="hire-card">
+            <span>02</span>
+            <h3 data-i18n="fit.card2.title">أحول الفكرة إلى مشروع يمكن تجربته</h3>
+            <p data-i18n="fit.card2.text">أهتم بأن يكون عملي قابلًا للعرض والفحص، سواء كان تطبيق Flutter أو موقع ويب أو نظام PHP، مع تنظيم الملفات وتحسين تجربة المستخدم قدر الإمكان.</p>
+          </article>
+          <article class="hire-card">
+            <span>03</span>
+            <h3 data-i18n="fit.card3.title">أتعلم بسرعة وأراجع عملي</h3>
+            <p data-i18n="fit.card3.text">عندما أواجه أداة أو مشكلة جديدة أبحث، أجرب، وأحسن النتيجة خطوة بعد خطوة حتى أصل إلى حل واضح يمكن مشاركته أو عرضه مباشرة.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section recruiter-section">
+        <div class="application-panel reveal">
+          <div>
+            <p class="eyebrow">Recruiter Snapshot</p>
+            <h2 data-i18n="snapshot.title">ما أريد أن يعرفه مسؤول التوظيف عني</h2>
+          </div>
+          <ul class="proof-list">
+            <li data-i18n="snapshot.item1">أستطيع العمل على تطبيقات Flutter وواجهات الويب وربطها بمنطق خلفي واضح.</li>
+            <li data-i18n="snapshot.item2">أتعامل مع الكود بجدية: أفهمه، أرتبه، وأحاول أن أجعله أسهل للتطوير والصيانة.</li>
+            <li data-i18n="snapshot.item3">أعرض مشاريعي بروابط وصور وتفاصيل تقنية حتى يكون الحكم على عملي عمليًا وليس مجرد كلام.</li>
+            <li data-i18n="snapshot.item4">أبحث عن فرصة أتعلم فيها بسرعة، وأثبت نفسي من خلال الالتزام والنتيجة.</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section" id="work">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Projects</p>
+          <h2 data-i18n="work.title">مشاريع كتبتها لتوضح طريقة تفكيري ومستواي</h2>
+        </div>
+        <div class="project-grid" id="projectGrid"></div>
+      </section>
+
+      <section class="section skills-section" id="skills">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Technical Stack</p>
+          <h2 data-i18n="skills.title">المهارات والتقنيات</h2>
+          <p class="section-note" data-i18n="skills.note">كتبت هذه المهارات بشكل مباشر حتى يعرف مسؤول التوظيف المجالات التي أعمل عليها وما الذي أستطيع تطويره.</p>
+        </div>
+        <div class="skills-grid reveal" id="skillsGrid"></div>
+      </section>
+
+      <section class="section backend-section" id="backend">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Backend Strength</p>
+          <h2 data-i18n="backend.title">أقوى جانب أعمل على تطويره هو الباك إند وقواعد البيانات</h2>
+          <p class="section-note" data-i18n="backend.note">
+            أهتم ببناء منطق واضح، قواعد بيانات منظمة، وربط الواجهات بعمليات يمكن فهمها وفحصها وتطويرها.
+          </p>
+        </div>
+        <div class="backend-grid reveal">
+          <article>
+            <span>C#</span>
+            <h3 data-i18n="backend.card1.title">أفكر بالكائنات والطبقات</h3>
+            <p data-i18n="backend.card1.text">أستخدم فهمي لـ OOP وتنظيم الكود لبناء طبقات واضحة وكائنات مفهومة بدل وضع كل المنطق في مكان واحد.</p>
+          </article>
+          <article>
+            <span>SQL</span>
+            <h3 data-i18n="backend.card2.title">أتعامل مع البيانات كجزء أساسي من النظام</h3>
+            <p data-i18n="backend.card2.text">عملت مع MySQL وSQL Server، وأهتم بالعلاقات، الاستعلامات، الحسابات المالية، والتقارير.</p>
+          </article>
+          <article>
+            <span>Sync</span>
+            <h3 data-i18n="backend.card3.title">أفهم أهمية العمل بدون إنترنت</h3>
+            <p data-i18n="backend.card3.text">في نظام تاجر استخدمت فكرة sync_queue لحفظ العمليات محليًا ثم رفعها عند توفر الاتصال.</p>
+          </article>
+          <article>
+            <span>PHP</span>
+            <h3 data-i18n="backend.card4.title">أبني أنظمة ويب ديناميكية</h3>
+            <p data-i18n="backend.card4.text">أعمل على صفحات PHP لإدارة العملاء والفواتير والمدفوعات والتقارير مع اتصال واضح بقاعدة البيانات.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section certificates-section" id="certificates">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Certificates</p>
+          <h2 data-i18n="certificates.title">شهادات تدعم الأساس البرمجي</h2>
+          <p class="section-note" data-i18n="certificates.note">أضيف هنا الشهادات التي تثبت عملي على الخوارزميات، حل المشكلات، C، ومفاهيم OOP.</p>
+        </div>
+        <div class="certificates-grid reveal">
+          <article class="certificate-card certificate-featured">
+            <img src="assets/certificate-oop.png" alt="OOP as it Should Be certificate" loading="lazy" />
+            <div>
+              <span>ProgrammingAdvices</span>
+              <h3 data-i18n="certificates.card4.title">OOP as it Should Be</h3>
+              <p data-i18n="certificates.card4.text">شهادة في مفاهيم البرمجة الكائنية وطريقة التفكير بالكائنات.</p>
+              <a href="assets/certificate-oop.png" target="_blank" rel="noreferrer" data-i18n="certificates.open">فتح الشهادة</a>
+            </div>
+          </article>
+          <article class="certificate-card">
+            <span>ProgrammingAdvices</span>
+            <h3 data-i18n="certificates.card1.title">Algorithms & Problem Solving - Level 3</h3>
+            <p data-i18n="certificates.card1.text">تدريب متقدم على التفكير الخوارزمي وتحليل المشكلات.</p>
+            <a href="assets/certificate-algorithms-level-3.pdf" target="_blank" rel="noreferrer" data-i18n="certificates.open">فتح الشهادة</a>
+          </article>
+          <article class="certificate-card">
+            <span>ProgrammingAdvices</span>
+            <h3 data-i18n="certificates.card2.title">Introduction to Programming using C - Level 2</h3>
+            <p data-i18n="certificates.card2.text">أساس قوي في البرمجة باستخدام لغة C.</p>
+            <a href="assets/certificate-c-level-2.pdf" target="_blank" rel="noreferrer" data-i18n="certificates.open">فتح الشهادة</a>
+          </article>
+          <article class="certificate-card">
+            <span>ProgrammingAdvices</span>
+            <h3 data-i18n="certificates.card3.title">Algorithms & Problem Solving - Level 2</h3>
+            <p data-i18n="certificates.card3.text">تدريب عملي على خطوات حل المشكلات قبل كتابة الكود.</p>
+            <a href="assets/certificate-algorithms-level-2.pdf" target="_blank" rel="noreferrer" data-i18n="certificates.open">فتح الشهادة</a>
+          </article>
+        </div>
+      </section>
+
+      <section class="section split" id="about">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Experience</p>
+          <h2 data-i18n="about.title">كيف أعمل وأتعلم</h2>
+        </div>
+        <div class="timeline reveal">
+          <article>
+            <span>Flutter</span>
+            <h3 data-i18n="about.flutter.title">أبني تطبيقات موبايل بـ Dart</h3>
+            <p data-i18n="about.flutter.text">أهتم بتنظيم الواجهات، إدارة الحالة، ربط البيانات، وتجهيز التطبيق ليكون قابلًا للتطوير.</p>
+          </article>
+          <article>
+            <span>Web</span>
+            <h3 data-i18n="about.web.title">أصمم واجهات ويب واضحة ومتجاوبة</h3>
+            <p data-i18n="about.web.text">أستخدم HTML وCSS وJavaScript لبناء صفحات حديثة تهتم بالتجربة، الأداء، وسهولة الاستخدام.</p>
+          </article>
+          <article>
+            <span>Backend</span>
+            <h3 data-i18n="about.backend.title">أربط الواجهة بمنطق خلفي واضح</h3>
+            <p data-i18n="about.backend.text">أعمل على فهم النماذج، قواعد البيانات، والاستعلامات، وربطها بواجهات المستخدم بشكل منظم.</p>
+          </article>
+          <article>
+            <span>Core</span>
+            <h3 data-i18n="about.core.title">أبني على أساس C# وC++ وOOP</h3>
+            <p data-i18n="about.core.text">أعتمد على مبادئ البرمجة الكائنية والبرمجة المهيكلة حتى تكون الحلول أوضح وأسهل في الصيانة.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section contact" id="contact">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Contact</p>
+          <h2 data-i18n="contact.title">للتواصل أو طلب السيرة الذاتية</h2>
+        </div>
+        <div class="contact-stack reveal">
+          <a class="contact-link" data-field="emailLink" href="mailto:mhmdalqhwm27@gmail.com">mhmdalqhwm27@gmail.com</a>
+          <div class="social-row">
+            <a data-field="githubLink" href="#" target="_blank" rel="noreferrer">GitHub</a>
+            <a data-field="linkedinLink" href="#" target="_blank" rel="noreferrer">LinkedIn</a>
+            <a data-field="cvLink" href="#" target="_blank" rel="noreferrer" data-i18n="contact.cv">السيرة الذاتية</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>© <span id="year"></span> <span data-field="name">محمد القحوم</span>. <span data-i18n="footer.rights">جميع الحقوق محفوظة.</span></p>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>
