@@ -123,7 +123,7 @@ const i18n = {
     "backend.card4.title": "أبني أنظمة ويب ديناميكية",
     "backend.card4.text": "أعمل على صفحات PHP لإدارة العملاء والفواتير والمدفوعات والتقارير مع اتصال واضح بقاعدة البيانات.",
     "certificates.title": "شهادات تدعم الأساس البرمجي",
-    "certificates.note": "أضيف هنا الشهادات التي تثبت عملي على الخوارزميات، حل المشكلات، C، Java، OOP، Agile، والتفكير التصميمي، مع تركيز خاص على النضج العملي في Level 4.",
+    "certificates.note": "أضيف هنا الشهادات التي تثبت عملي على الخوارزميات، حل المشكلات، C، C#، Java، OOP، Agile، والتفكير التصميمي، مع تركيز خاص على النضج العملي في Level 4.",
     "certificates.open": "فتح الشهادة",
     "certificates.card1.title": "Algorithms & Problem Solving - Level 3",
     "certificates.card1.text": "تدريب عملي بعد C++ Level 2 يركز على 51 مسألة متدرجة، Clean Code، Divide & Conquer، والانتقال من حل المسائل إلى تنفيذ مشاريع حقيقية.",
@@ -144,6 +144,12 @@ const i18n = {
     "certificates.card8.outcome1": "تنظيم الحلول داخل كود طويل بدون فقدان السيطرة.",
     "certificates.card8.outcome2": "استخدام Divide & Conquer وClean Code في مسائل متقدمة.",
     "certificates.card8.outcome3": "الانتقال من حل المسائل إلى التفكير بمشاريع وأنظمة واقعية.",
+    "certificates.card9.title": "OOP As It Should Be In C#",
+    "certificates.card9.text": "تدريب عملي على البرمجة الكائنية باستخدام C# وبناء التفكير القائم على الكلاسات.",
+    "certificates.card10.title": "C# - Level 1",
+    "certificates.card10.text": "أساس مركز في لغة C#، منطق البرمجة، ومبادئ التطوير على .NET.",
+    "certificates.card11.title": "C# & Database Connectivity",
+    "certificates.card11.text": "ربط تطبيقات C# بقواعد البيانات وبناء أنظمة سطح مكتب وأعمال تعتمد على البيانات.",
     "about.title": "كيف أعمل وأتعلم",
     "about.flutter.title": "أبني تطبيقات موبايل بـ Dart",
     "about.flutter.text": "أهتم بتنظيم الواجهات، إدارة الحالة، ربط البيانات، وتجهيز التطبيق ليكون قابلًا للتطوير.",
@@ -247,7 +253,7 @@ const i18n = {
     "backend.card4.title": "I Build Dynamic Web Systems",
     "backend.card4.text": "I work on PHP pages for customers, invoices, payments, and reports with clear database connectivity.",
     "certificates.title": "Certificates That Support My Programming Foundation",
-    "certificates.note": "Here I include certificates that support my work in algorithms, problem solving, C, Java, OOP, Agile, and design thinking, with a special focus on practical maturity in Level 4.",
+    "certificates.note": "Here I include certificates that support my work in algorithms, problem solving, C, C#, Java, OOP, Agile, and design thinking, with a special focus on practical maturity in Level 4.",
     "certificates.open": "Open Certificate",
     "certificates.card1.title": "Algorithms & Problem Solving - Level 3",
     "certificates.card1.text": "Practice-focused training after C++ Level 2, built around 51 ordered problems, Clean Code, Divide & Conquer, and moving from problem solving into real project implementation.",
@@ -268,6 +274,12 @@ const i18n = {
     "certificates.card8.outcome1": "Keeping long solutions organized without losing control.",
     "certificates.card8.outcome2": "Using Divide & Conquer and Clean Code in advanced problem solving.",
     "certificates.card8.outcome3": "Moving from problem solving into realistic system-level thinking.",
+    "certificates.card9.title": "OOP As It Should Be In C#",
+    "certificates.card9.text": "Practical object-oriented programming with C# and class-based system thinking.",
+    "certificates.card10.title": "C# - Level 1",
+    "certificates.card10.text": "A focused foundation in C# syntax, programming logic, and .NET development basics.",
+    "certificates.card11.title": "C# & Database Connectivity",
+    "certificates.card11.text": "Connecting C# applications with databases and building data-driven desktop/business systems.",
     "about.title": "How I Work and Learn",
     "about.flutter.title": "I Build Mobile Apps with Dart",
     "about.flutter.text": "I care about organized interfaces, state handling, data connection, and preparing apps for future development.",
@@ -352,7 +364,7 @@ const defaults = {
     },
     photo: "assets/profile-mohammed.png",
   },
-  metrics: { projects: 12, technologies: 12, certificates: 8 },
+  metrics: { projects: 12, technologies: 12, certificates: 11 },
   links: {
     email: "mhmdalqhwm27@gmail.com",
     github: "https://github.com/Mohammedalqhoom",
@@ -640,7 +652,7 @@ function enforceProfessionalIntro(currentState) {
   };
   currentState.metrics = {
     ...currentState.metrics,
-    certificates: 8,
+    certificates: 11,
   };
   delete currentState.metrics.level;
   return currentState;
